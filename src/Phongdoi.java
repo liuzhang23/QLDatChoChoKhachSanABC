@@ -1,0 +1,11 @@
+
+public class Phongdoi extends Phong{
+	
+	public Phongdoi(String maphong, int giatien, String mota ) {
+		super(maphong,giatien,mota);
+	}
+	
+	public String toString() {
+		return "Maphong: " +getMaphong() + "Gia tien: " +getGiatien() + "Mo ta: " +getMota();
+	}
+}
